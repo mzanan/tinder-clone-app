@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import TinderCard from "react-tinder-card";
 import "../styles/TinderCards.css";
 import axios from "../axios";
-import api from "../api";
 
 function TinderCards() {
   const [people, setPeople] = useState([]);
